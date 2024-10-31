@@ -1,0 +1,204 @@
+@import url('https://fonts.cdnfonts.com/css/urwgrotesk');
+
+@font-face {
+    font-family: "Papa Man";
+    src: url(PapaManAOE.ttf);
+}
+
+h4 {
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+header {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .95)),
+        url('images/cafe.jpg');
+    color: white;
+    text-align: center;
+    height: 100dvh;
+    display: flex;
+    font-family: 'URWGroteskSC', sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 71px;
+    width: 100dvw;
+}
+
+nav > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: inline-block;
+}
+
+ul {
+    padding-left: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 24px;
+    font-size: 1.08rem;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+nav li:hover {
+    color: #fafafa;
+}
+
+.slash {
+    font-size: 1.21rem;
+    font-weight: 200;
+    position: relative;
+    top: 1px;
+}
+
+h1 {
+    display: inline-block;
+    padding-left: 23px;
+    padding-right: 16px;
+    font-family: "Charm";
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+}
+
+h1 span {
+    color: #af7b33;
+}
+
+/* Hero Section */
+header section {
+    position: absolute;
+    align-self: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+h2:last-of-type {
+    margin-bottom: 32px;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 1.174rem;
+    font-family: "Papa Man";
+}
+
+.bullet {
+    margin: 0 11px;
+}
+
+/* Events Section */
+.events {
+    text-align: center;
+    margin: 84px 0 112px;
+}
+
+hr {
+    width: 140px;
+    border-top-width: 2px;
+    margin: 21px auto 31px;
+    color: #b71c1c;
+}
+
+h5 {
+    font-size: 24px;
+    margin: 19px auto 11px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 340px;
+    position: relative;
+    color: #fff;
+    font-family: "Borel";
+}
+
+.panels div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.panels div:first-of-type {
+    /* background-image: 
+    linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .80)),
+    url(''); */
+    background-size: cover;
+}
+
+.panels div:last-of-type {
+    /* background-image: 
+    linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .80)),
+    url(''); */
+    background-size: cover;
+}
+
+footer {
+    background: #000;
+    padding: 34px 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'URWGroteskSC', sans-serif;
+}
+
+footer a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 750px) {
+    .menu {
+        display: none;
+    }
+
+    .bullet {
+        display: none;
+    }
+
+    h2 {
+        font-size: 2.7rem;
+    }
+
+    h3 {
+        margin: 6px 0;
+        font-size: 1.19rem;
+    }
+
+    h3 span {
+        display: none;
+    }
+
+    .panels {
+        grid-template-columns: 1fr;
+    }
+    
+    .panels section {
+        padding: 0 23px;
+    }
+}
