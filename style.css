@@ -15,6 +15,11 @@ h4 {
     font-family: "Papa Man";
 }
 
+p {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .95)),
@@ -130,19 +135,15 @@ hr {
 h5 {
     font-size: 24px;
     margin: 19px auto 11px;
-}
-
-p {
-    font-size: 17px;
+    font-family: 'URWGroteskSC', sans-serif;
 }
 
 .panels {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 340px;
+    height: 405px;
     position: relative;
     color: #fff;
-    font-family: "Borel";
 }
 
 .panels div {
